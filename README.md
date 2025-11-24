@@ -17,3 +17,5 @@ Try running the following commands:
 
 Creation d'environnement dev et prod (mais utilisation des meme informations d'identification)
 brancher le projet à mon compte github
+
+creatoion d'une dimension date en utilisant les fonctions de date de snow tel que dayname, to_timestamp, et des fonctions sql case when 
