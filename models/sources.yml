@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: labs_raw_data
+    database: labs  
+    schema: labs_schema  
+    tables:
+      - name: bikes
+      - name: weather
