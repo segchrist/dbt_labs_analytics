@@ -19,3 +19,4 @@ Creation d'environnement dev et prod (mais utilisation des meme informations d'i
 brancher le projet à mon compte github
 
 creatoion d'une dimension date en utilisant les fonctions de date de snow tel que dayname, to_timestamp, et des fonctions sql case when 
+creation du modele daily_weather qui agrège les données météo par jour(initialement par heure)  et sélectionne, pour chaque date, le type de météo le plus fréquent afin de créer une vue journalière représentative(utilisation des window function et qualify qui permet de filtrer le resultat d'une window function)
