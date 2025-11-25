@@ -7,7 +7,7 @@ WITH daily_weather as (
         pressure,
         humidity,
         clouds
-    from {{ source('demo', 'weather') }}
+    from {{ source('labs_raw_data', 'weather') }}
 
 ),
 
