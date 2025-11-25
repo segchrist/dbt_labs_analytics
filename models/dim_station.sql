@@ -5,7 +5,7 @@ WITH stations AS(
     start_lat,
     start_lng
 
-    FROM {{source("labs_raw_data", "bikes")}}
+    FROM {{ ref('stg_bikes') }}
 )
 
 
